@@ -14,8 +14,9 @@ find_package(geometry_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AuvControllerSetPoint.msg"
+  "msg/ControllerDebug.msg"
   "msg/Navigator.msg"
-  DEPENDENCIES geometry_msgs
+  DEPENDENCIES geometry_msgs std_msgs
 )
 
 if(BUILD_TESTING)

@@ -1,0 +1,11 @@
+std_msgs/Header header
+string controller_name
+bool active
+bool chained_mode
+float64 desired_period_us
+float64 last_update_us
+float64 avg_update_us
+float64 max_update_us
+float64 min_update_us
+uint64 deadline_miss_count
+uint64 cycle_count
