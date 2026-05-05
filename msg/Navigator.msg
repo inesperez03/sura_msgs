@@ -1,4 +1,5 @@
 geometry_msgs/Pose position
+float32 altitude
 
 geometry_msgs/Vector3 rpy
 
