@@ -15,6 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AuvControllerSetPoint.msg"
   "msg/ControllerDebug.msg"
+  "msg/AuvDynamicModel.msg"
   "msg/LeakSensor.msg"
   "msg/NavigationSafety.msg"
   "msg/Navigator.msg"
