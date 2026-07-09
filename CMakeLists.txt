@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NavigationSafety.msg"
   "msg/Navigator.msg"
   "msg/RobotWatchdog.msg"
+  "msg/DVLBeam.msg"
+  "msg/DVL.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
