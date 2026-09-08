@@ -22,6 +22,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotWatchdog.msg"
   "msg/DVLBeam.msg"
   "msg/DVL.msg"
+  "msg/MultibeamDetection.msg"
+  "msg/MultibeamPing.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
