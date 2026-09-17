@@ -25,6 +25,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SuraWrenchCommand.msg"
   "srv/ClearControllerIntents.srv"
   "srv/ControllerInterlock.srv"
+  "msg/DVLBeam.msg"
+  "msg/DVL.msg"
+  "msg/MultibeamDetection.msg"
+  "msg/MultibeamPing.msg"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
