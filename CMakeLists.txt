@@ -20,8 +20,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NavigationSafety.msg"
   "msg/Navigator.msg"
   "msg/RobotWatchdog.msg"
+  "msg/SuraWrenchCommand.msg"
+  "msg/SuraPoseCommand.msg"
+  "msg/SuraVelocityCommand.msg"
   "msg/DVLBeam.msg"
   "msg/DVL.msg"
+  "srv/ClearControllerIntents.srv"
+  "srv/ControllerInterlock.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
 
